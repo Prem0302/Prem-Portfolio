@@ -1,7 +1,7 @@
 # Prem-Portfolio
 
 # Features
-Responsive Design: The website is responsive and can adapt to different screen sizes, ensuring a seamless experience across devices.
+- Responsive Design:  The website is responsive and can adapt to different screen sizes, ensuring a seamless experience across devices.
 Navigation: Users can navigate through different sections of the website using the navbar, which includes links to Home, About, Education, Skills, Projects, and Contact.
 About Section: Provides a brief introduction about the portfolio owner, including skills and expertise.
 Education Section: Displays the educational background of the portfolio owner.
