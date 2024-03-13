@@ -2,19 +2,19 @@
 
 # Features
 - Responsive Design:  The website is responsive and can adapt to different screen sizes, ensuring a seamless experience across devices.
-Navigation: Users can navigate through different sections of the website using the navbar, which includes links to Home, About, Education, Skills, Projects, and Contact.
-About Section: Provides a brief introduction about the portfolio owner, including skills and expertise.
-Education Section: Displays the educational background of the portfolio owner.
-Skills Section: Highlights the technical skills of the portfolio owner with visually appealing icons.
-Projects Section: Showcases projects undertaken by the portfolio owner, displayed in a carousel format.
-Contact Form: Allows visitors to send messages directly to the portfolio owner by filling out a contact form.
+- Navigation: Users can navigate through different sections of the website using the navbar, which includes links to Home, About, Education, Skills, Projects, and Contact.
+- About Section: Provides a brief introduction about the portfolio owner, including skills and expertise.
+- Education Section: Displays the educational background of the portfolio owner.
+- Skills Section: Highlights the technical skills of the portfolio owner with visually appealing icons.
+- Projects Section: Showcases projects undertaken by the portfolio owner, displayed in a carousel format.
+- Contact Form: Allows visitors to send messages directly to the portfolio owner by filling out a contact form.
 
 # Technologies Used
-HTML5: Markup language used for structuring the web pages.
-CSS: Stylesheet language used for styling the website.
-JavaScript: Programming language used for client-side scripting.
-Bootstrap: Front-end framework used for designing responsive and mobile-first websites.
-EmailJS: Integration used for handling email submissions from the contact form.
+- HTML5: Markup language used for structuring the web pages.
+- CSS: Stylesheet language used for styling the website.
+- JavaScript: Programming language used for client-side scripting.
+- Bootstrap: Front-end framework used for designing responsive and mobile-first websites.
+- EmailJS: Integration used for handling email submissions from the contact form.
 
 # Getting Started
 Clone the repository to your local machine:
