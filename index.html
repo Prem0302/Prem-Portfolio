@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "ZAj44ipp4UJz-cjCp",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg  fixed-top  ">
+    <a class="navbar-brand" href="#Home">Personal Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end  " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto  nav-pills nav-fill nav-justified  ">
+        <li class="nav-item active">
+          <a class="nav-link text-black  " href="#">Home </a>
+        </li>
+        <li class="nav-item active ">
+          <a class="nav-link  text-black" href="#About">About</a>
+        </li>
+
+        <li class="nav-item  ">
+          <a class="nav-link  text-black " href="#Education">Education</a>
+        </li>
+
+        <li class="nav-item  ">
+          <a class="nav-link  text-black " href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link  text-black " href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link  text-black" href="#Contact">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container vh-100 d-flex justify-content-center align-items-center" style="flex-direction: column;">
+    <div class="content w-100 row d-flex justify-content-center align-items-center">
+      <div class="col-md-6 col-12  d-flex justify-content-start align-items-center " style="flex-direction: column;">
+        <div class="t">
+           <h2> Hello!</h2>
+        <h1> I'm <span >Premkumar</span> Ravi</h1>
+        <div class="social-media mt-5  ">
+
+            <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"
+              href="https://www.linkedin.com/in/premkumar-ravi/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg>
+            </a>
+
+            <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"
+              href="https://github.com/Prem0302">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg>
+            </a>
+            <br> <br>
+            <a class="btn  btn-outline-primary " href="Images/Premkumar.pdf" role="button">Download Resume</a>
+          </div>
+        </div>     
+      </div>
+
+      <div class="col-6 d-none d-md-block d-flex justify-content-center align-items-center">
+        <div class="img-box d-flex justify-content-center align-items-center" style="width: 435px;">
+          <img src="./Images/Prem-22.png" style="width: 250px; height:300px" class="dd img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center alin-items-center ">
+    <div class="about d-flex justify-content-center alin-items-center " id="About">
+      <div class="row  d-flex justify-content-center alin-items-center  ">
+        <div class="img d-flex justify-content-center alin-items-center col-12 col-md-3">
+          <img class="profileimg img-fluid" src="Images/Prem.jpeg.jpg" alt="">
+        </div>
+        <div class="about-text col-md-5 col-12">
+          <h3 class="font-weight-bold">About</h3>
+          <p>Tech-savvy MCA candidate with expertise in C, Python, and JavaScript. Skilled in front-end
+            technologies (HTML5, CSS) and backend development (SQL). Proven problem-solver with strong
+            analytical skills. Eager to contribute as a dynamic team player in an entry-level IT role.</p>
+          <a class="btn  btn-outline-primary " href="Images/Premkumar.pdf" role="button">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+    <div class="education " id="Education">
+      <h2>Education</h2>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4  border-radius:10px">
+        <div class="card ">
+          <div class="card-body">
+            <p class="card-text">
+              Master of Computer Applications<br>
+              M Kumarasamy College Of Engineering , <br>Karur<br>
+              2022-2024
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-14 col-md-6 col-lg-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              Bachelor of Computer Applications<br>
+              National College , <br>Tiruchirapalli
+              <br>
+              2019-2022
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              Higher Secondary School(HSC)
+              Kongu.Higher.Secondary.School , <br>Karur<br>
+              2018-2019
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container mt-5" id="Skills">
+    <div class="skill">
+      <h2 class="text-center mb-4">Skills</h2><br>
+      <div class="row justify-content-center">
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 384 512">
+            <path fill="#c96513"
+              d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+          </svg>
+          <p>HTML5</p>
+        </div>
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 384 512">
+            <path fill="#74C0FC"
+              d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+          </svg>
+          <p>CSS</p>
+        </div>
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 576 512">
+            <path fill="#4d57ea"
+              d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z" />
+          </svg>
+          <p>Bootstrap</p>
+        </div>
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 448 512">
+            <path fill="#FFD43B"
+              d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+          </svg>
+          <p>JavaScript</p>
+        </div>
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 448 512">
+            <path fill="#FFD43B"
+              d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z" />
+          </svg>
+          <p>Python</p>
+        </div>
+        <div class="logo col-lg-2 col-md-4 col-6 text-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" height="90" width="200" viewBox="0 0 448 512">
+            <path fill="#74C0FC"
+              d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z" />
+          </svg>
+          <p>MySQL</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container vh-100 d-flex justify-content-center align-items-center " style="flex-direction: column;">
+
+
+    <div class="content w-100">
+      <div class="project " id="Projects">
+        <h2 class="text-center text-white font-weight-bold mb-4" id="project">Projects</h2><br>
+
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/Project-1.png" class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> E-Farm Product Sale</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/project-2.png" class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Simple Card </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/project-3.png" class="d-block img-fluid w-100 " alt="...">
+
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Project-4 .png" class="d-block img-fluid w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Restraunt Basic Web</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Project-5.png" class="d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container ">
+    <div class="row justify-content-center">
+
+      <div class="contact font-weight-bold text-white col-md-6  py-3 ">
+        <h1>Contact </h1>
+        <br>
+        <div class="form-group" id="Contact">
+          <h5 for="name">Name</h5>
+          <input type="text" class="form-control" id="name" placeholder="Enter name" />
+        </div>
+        <div class="form-group">
+          <h5 for="email">Email</h5>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" />
+        </div>
+        <div class="form-group">
+          <h5 for="message">Message</h5>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <br>
+        <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+      </div>
+    </div>
+  </div>
+  <br>
+
+</body>
+</html>
