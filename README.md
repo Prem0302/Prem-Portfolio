@@ -19,9 +19,6 @@
 - EmailJS: Integration used for handling email submissions from the contact form.
 
 # Getting Started
-Clone the repository to your local machine:
-git clone https://github.com/your-username/portfolio-website.git
-Open the project directory in your code editor.
 
 Customize the content, images, and styling according to your preferences.
 
